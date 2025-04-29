@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projeto Agrinho 2025 - Vinicius Bitecurt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3.5em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 15px;
+      animation: pulse 2s infinite;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png'); /* Coloque aqui o link para o avatar de Vinicius */
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: -120px; /* Ajuste conforme necessário */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    nav {
+      background-color: #ff9800;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #e65100;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background 0.3s, transform 0.3s;
+    }
+    nav a:hover {
+      background: #bf360c;
+      transform: scale(1.1);
+    }
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    section h2 {
+      font-size: 2.5em;
+      color: #4caf50;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    section h2::after {
+      content: '';
+      width: 60px;
+      height: 4px;
+      background: #4caf50;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+    }
+    section p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    section img {
+      width: 100%;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+    .highlight {
+      background: #fce4ec;
+      padding: 20px;
+      border-left: 5px solid #ec407a;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    footer {
+      background: #263238;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .icon-box {
+      background: #e1f5fe;
+      padding: 20px;
+      text-align: center;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+    .icon-box:hover {
+      transform: translateY(-10px);
+    }
+    .icon-box img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #4caf50;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #388e3c;
+    }
+    .additional-btn {
+      background-color: #ff5722;
+      padding: 15px 30px;
+      text-align: center;
+      border-radius: 25px;
+      color: white;
+      font-weight: bold;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .additional-btn:hover {
+      background-color: #d84315;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Projeto Agrinho 2025 - Vinicius Bitecurt</h1>
+  </header>
+
+  <nav>
+    <a href="#introducao">Introdução</a>
+    <a href="#festas">Festas Juninas</a>
+    <a href="#educacao">Educação</a>
+    <a href="#cultura">Cultura Rural</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#producao">Produção</a>
+    <a href="#conclusao">Conclusão</a>
+  </nav>
+
+  <main>
+    <!-- Seções do conteúdo aqui -->
+  </main>
+
+  <footer>
+    <p>Projeto Agrinho 2025 - Criado por Vinicius Bitecurt 🚜</p>
+  </footer>
+
+</body>
+</html>
